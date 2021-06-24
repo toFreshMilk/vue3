@@ -1,0 +1,38 @@
+[
+    {
+      "name": "브랜드 이야기",
+      "link": "/zin/brand/",
+      "dep2": [
+        {
+          "name": "지인 소개",
+          "link": "/zin/brand/about/"
+        },
+        {
+          "name": "지인 TV",
+          "link": "/zin/brand/tv/"
+        },
+        {
+          "name": "뉴스레터",
+          "link": "/zin/brand/news/"
+        },
+        {
+          "name": "프로슈머 지엔느",
+          "link": "/zin/brand/zenne/",
+          "dep3": [
+            {
+              "name": "지엔느 소개",
+              "link": "/zin/brand/zenne/"
+            },
+            {
+              "name": "지엔느 활동",
+              "link": "/zin/brand/zenne/activity/"
+            },
+            {
+              "name": "지엔느 모집 안내",
+              "link": "/zin/brand/zenne/recruitment/"
+            }
+          ]
+        }
+      ]
+    }
+  ]

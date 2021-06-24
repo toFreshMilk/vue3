@@ -1,0 +1,391 @@
+@charset "utf-8";
+
+/*-------------------------------------------------------------------
+	파일정의 : 홈스타일링 스타일
+	작성날짜 : 2021-05-13 조예인
+	참고사항 : 홈 스타일링 페이지 정의
+	속성순서 : 표시 > 위치 > 넘침/흐름 > 크기/간격 > 박스모양 > 폰트/정렬 > 기타
+-------------------------------------------------------------------*/
+
+.styling_head .ttl_group {
+  margin-bottom: 23px;
+}
+.styling_head .best_sec .ttl_group {
+  margin-bottom: 10px;
+}
+
+/* best_sec */
+
+.best_sec {
+  padding-bottom: 40px;
+}
+.best_sec .slide_list_item .ttl {
+  display: -webkit-box;
+  overflow: hidden;
+  max-height: 2.8em;
+  line-height: 1.4em;
+  word-wrap:break-word;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+}
+
+.expert_list_wrap .list_item_body .ttl_area h6.ttl,
+.myhome_list_wrap .list_item_body .ttl_area h6.ttl {
+  display: block;
+  white-space: nowrap;
+  -webkit-line-clamp: 1;
+}
+
+/* 카드형 */
+.list_item.type_card {
+  position: relative;
+  min-height: 470px;
+  border: 1px solid #E2E2E2;
+  margin-bottom: 90px;
+}
+.list_item.type_card .list_item_head {
+  margin: -1px -1px 0;
+}
+/*.list_item.type_card .list_item_head .scrap_area {*/
+/*  bottom: auto;*/
+/*  right: 10px;*/
+/*  top: 100%;*/
+/*  margin-top: 15px;*/
+/*}*/
+/*.list_item.type_card .list_item_head .scrap_btn {*/
+/*  background: transparent;*/
+/*}*/
+.list_item.type_card .list_item_head .scrap_btn:before {
+  background-position: -70px -130px;
+}
+.list_item.type_card .list_item_body {
+  min-height: 160px;
+  padding: 20px 20px 0;
+}
+/*.list_item.type_card .list_item_body .ttl_area {*/
+/*  padding-right: 35px;*/
+/*}*/
+.list_item.type_card .list_item_body .ttl_area .ttl {
+  height: 2.88em;
+  word-wrap:break-word;
+  font-weight: 500;
+  line-height: 1.44;
+}
+.list_item.type_card .item_info_group {
+  position: static;
+}
+.list_item.type_card .thumb {
+  padding-bottom: 100%;
+}
+/* trend */
+.trend_page .ttl_group,
+.trend_page .ttl_group .ttl_area {
+  margin-bottom: 12px;
+}
+.list_item.type_trend .list_item_body {
+  min-height: 105px;
+}
+.styling_page .list_item.type_trend .thumb {
+  padding-bottom: 100%;
+}
+.list_item.type_trend .ttl {
+  height: 3em;
+}
+
+/* --  생확단편  --  */
+.book_list_sec .btn_area {
+  padding-top: 30px;
+}
+.book_list>div {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.book_list .book_item {
+  padding: 0 15px;
+}
+.book_list .book_item .cate_area {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.book_list .book_item .cate_area span {
+  display: inline-block;
+  padding: 10px 16px 7px 12px;
+  background: #fff;
+  color: #A27855;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 23px;
+  vertical-align: top;
+}
+.book_list .book_item .list_item_body {
+  min-height: 100px;
+}
+.book_list .book_item .ttl_area {
+  margin-top: 15px;
+}
+.book_list .book_item .ttl_area .ttl,
+.book_list .book_item .ttl_area p {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.book_list .book_item .ttl_area p {
+  margin-top: 2px;
+  font-size: 1.6rem;
+  color: #7c7c7c;
+}
+
+.list_sec_head .list_cate_group {
+  margin-top: -10px;
+  display: block;
+  text-align: center;
+  font-size: 0;
+  margin-bottom: 35px;
+}
+.list_cate_group .list_cate_item {
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+  padding: 0 2px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000;
+  margin: 0 25px;
+}
+.list_cate_group .list_cate_item span {
+  display: inline-block;
+  color: #7c7c7c;
+  font-size: 1.6rem;
+  vertical-align: 1px;
+}
+.list_cate_group .list_cate_item.is_active {
+  color: #A27855;
+}
+.list_cate_group .list_cate_item.is_active:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  margin-top: 5px;
+  background: #B49277;
+}
+
+.trend_page .styling_head {
+  margin-bottom: -10px;
+}
+
+
+/* style-guide 인테리어 A to Z */
+.styling_page {
+}
+.guide_page .guide_head {
+  width: 190px;
+  padding-top: 0 !important;
+}
+.guide_page .guide_head .ttl_area {
+  margin-bottom: 18px;
+}
+.guide_page .guide_head .ttl {
+  font-size: 20px;
+  font-weight: 500;
+}
+.guide_page .guide_head .snb_node > a {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+/*.guide_page .guide_body {*/
+/*  width: 1280px;*/
+/*}*/
+/*.guide_page .guide_body .ttl_area {*/
+/*  margin-bottom: 28px;*/
+/*}*/
+.guide_page .guide_body h2 {
+  font-size: 34px;
+  font-weight: 400;
+}
+.guide_page .guide_body p{
+  font-size: 16px;
+  color: #212121;
+}
+
+.guide_page .guide_tab_sec {
+  padding: 5px 0 0;
+}
+
+.guide_page .guide_list_sec .list_sec_head {
+  padding-top: 0;
+}
+.guide_page .list_item .thumb {
+  padding-bottom: 100%;
+}
+
+.guide_page .guide_list_sec .ttl {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+
+/* guide-detail */
+.guide_detail_page .guide_head .ttl_group {
+  /*margin-bottom: 36px;*/
+}
+.guide_detail_page .guide_head .ttl_area p {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 36px;
+}
+
+
+
+.guide_detail_page .txt_sec {
+  position: relative;
+  padding: 18px 0 22px;
+  border-top: 1px solid #212121;
+  border-bottom: 1px solid #D0D0D0;
+}
+.guide_detail_page .txt_sec .ttl_area {
+  margin-bottom: 5px;
+}
+.guide_detail_page .txt_sec .ttl_area h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.guide_detail_page .txt_sec .info_area {
+  font-size: 14px;
+}
+.guide_detail_page .txt_sec .info_area span~span:before {
+  content: "";
+  width: 1px;
+  height: 16px;
+  background-color: #D0D0D0;
+  display: inline-block;
+  margin: 0 13px 0 10px;
+  vertical-align: middle;
+}
+
+.guide_detail_page .btn_wrap {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.guide_detail_page .btn_wrap > div {
+  float: left;
+}
+.guide_detail_page .btn_wrap .share_item_wrap.type_arw_bottom {
+  transform: translate(-86%, 100%);
+}
+
+.guide_detail_page .cnt_img_sec {
+  padding: 40px 0 65px;
+}
+.guide_detail_page .cnt_img_sec .img_wrap {
+  width: 970px;
+  margin: auto;
+}
+
+.guide_detail_page .moveto_sec {}
+.guide_detail_page .moveto_sec ul {
+  border-bottom: 1px solid #212121;
+  border-top: 1px solid #212121;
+  margin-bottom: 35px;
+}
+.guide_detail_page .moveto_sec ul li {
+  padding: 20px 0 20px 20px;
+}
+.guide_detail_page .moveto_sec ul li:first-child {
+  border-bottom: 1px solid #D0D0D0;
+}
+.guide_detail_page .moveto_sec ul li:first-child p{
+  color: #a3a3a3;
+}
+.guide_detail_page .moveto_sec ul li strong {
+  font-size: 15px;
+  color: #7C7C7C;
+  font-weight: 400;
+}
+.guide_detail_page .moveto_sec ul li p {
+  font-size: 15px;
+  padding-left: 12px;
+  display: inline-block;
+}
+
+/* guide-list-type*/
+.list_type_body li {
+  padding: 16px 0;
+}
+.list_type_body li:first-child {
+  padding: 0 0 16px 0;
+}
+.list_type_body li:last-child {
+  padding: 16px 0 0 0;
+}
+.list_type_body ul li ~ li {
+  border-top: 1px solid #D0D0D0;
+}
+.list_type_body .img_wrap{
+  width: 200px;
+  height: 200px;
+}
+.list_type_body .txt_group {
+  padding: 20px 0 7px;
+  width: 1060px;
+  padding-left: 20px;
+}
+.list_type_body .txt_group h5 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.list_type_body .txt_group p {
+  font-size: 15px;
+  line-height: 24px;
+  height: 72px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.list_type_body .txt_group .info_area {
+  margin-top: 40px;
+  color: #7C7C7C;
+}
+.list_type_body .txt_group span~span:before {
+  content: "";
+  width: 1px;
+  height: 16px;
+  background-color: #D0D0D0;
+  display: inline-block;
+  margin: 0 8px 0 5px;
+  vertical-align: middle;
+}
+.list_type_body .txt_group .date {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+.list_type_body .txt_group .view {
+  font-size: 14px;
+}
+.lifebook_page .detail_head .ttl_area::before {
+  display: none;
+}

@@ -1,0 +1,22 @@
+<svg id="ic_print" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="Rectangle_2878" data-name="Rectangle 2878" width="32" height="32" fill="none"/>
+  <g id="Group_2176" data-name="Group 2176" transform="translate(-1425.049 -1044)">
+    <g id="Group_2175" data-name="Group 2175" transform="translate(-147)">
+      <g id="Rectangle_2874" data-name="Rectangle 2874" transform="translate(1580 1048)" fill="none" stroke="#212121" stroke-linejoin="round" stroke-width="1">
+        <rect width="16" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="15" height="6" fill="none"/>
+      </g>
+      <path id="Path_1976" data-name="Path 1976" d="M23121-6416.647l-5.436,0v-11h22.984v11l-5.541,0" transform="translate(-21539.01 7482.145)" fill="none" stroke="#212121" stroke-linejoin="round" stroke-width="1"/>
+      <g id="Rectangle_2876" data-name="Rectangle 2876" transform="translate(1581 1061)" fill="none" stroke="#212121" stroke-linejoin="round" stroke-width="1">
+        <rect width="14" height="11" stroke="none"/>
+        <rect x="0.5" y="0.5" width="13" height="10" fill="none"/>
+      </g>
+      <path id="Path_1977" data-name="Path 1977" d="M23125.7-6416.5h7" transform="translate(-21541.148 7481)" fill="none" stroke="#212121" stroke-width="1"/>
+      <path id="Path_1978" data-name="Path 1978" d="M23125.7-6416.5h7" transform="translate(-21541.148 7485)" fill="none" stroke="#212121" stroke-width="1"/>
+    </g>
+    <g id="Rectangle_2877" data-name="Rectangle 2877" transform="translate(1447.557 1056)" fill="#fff" stroke="#212121" stroke-width="1">
+      <rect width="2" height="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" fill="none"/>
+    </g>
+  </g>
+</svg>

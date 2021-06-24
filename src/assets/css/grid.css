@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*-------------------------------------------------------------------
+	파일정의 : 그리드 스타일
+	작성날짜 : 2019-10-22 장병주
+	참고사항 : 그리드 시스템 정의
+	속성순서 : 표시 > 위치 > 넘침/흐름 > 크기/간격 > 박스모양 > 폰트/정렬 > 기타
+-------------------------------------------------------------------*/
+
+/* Grid */
+.grid:after {display: block; content: ''; clear: both; }
+.grid>.col {float: left; width: 100%; min-height: 1px; box-sizing: border-box;padding:0;  }
+.grid>.col.right {float: right;}
+.grid.ib {
+  font-size: 0;
+}
+.grid.ib>.col {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+/* 구터 넒이 */
+
+.grid.grid_3 {margin-left: -3px; margin-right: -3px;}
+.grid.grid_3>.col {padding: 0 3px;}
+
+.grid.grid_5 {margin-left: -5px; margin-right: -5px;}
+.grid.grid_5>.col {padding: 0 5px;}
+
+.grid.grid_10 {margin-left: -10px; margin-right: -10px;}
+.grid.grid_10>.col {padding: 0 10px;}
+
+.grid.grid_13 {margin-left: -15px; margin-right: -15px;}
+.grid.grid_13>.col {padding: 0 15px;}
+
+.grid.grid_15 {margin-left: -15px; margin-right: -15px;}
+.grid.grid_15>.col {padding: 0 15px;}
+
+.grid.grid_17 {margin-left: -17px; margin-right: -17px;}
+.grid.grid_17>.col {padding: 0 17px;}
+
+.grid.grid_35 {margin-left: -35px; margin-right: -35px;}
+.grid.grid_35>.col {padding: 0 35px;}
+
+/* 너비 - 자신 칸수 */
+.grid>.col.col_1 {width: 8.33333333%;}
+.grid>.col.col_2 {width: 16.6666%;}
+.grid>.col.col_3 {width: 25%;}
+.grid>.col.col_4 {width: 33.3333%;}
+.grid>.col.col_5 {width: 41.66666667%;}
+.grid>.col.col_6 {width: 50%;}
+.grid>.col.col_7 {width: 58.33333333%;}
+.grid>.col.col_8 {width: 66.66666667%;}
+.grid>.col.col_9 {width: 75%;}
+.grid>.col.col_10 {width: 83.33333334%;}
+.grid>.col.col_11 {width: 91.66666667%;}
+.grid>.col.col_12 {width: 100%;}
+.grid>.col.col_x5 {width: 20%;}
+
+/*flex*/
+
+.grid.fx{
+  display:flex;
+}
+.grid.fx .col{
+  float: none !important;
+  flex:1;
+  padding: 0 !important;
+}
+.grid .col.flex_2{
+  flex:2
+}
+.grid.grid_5.fx>.col{
+ margin:0 5px;
+}
+.grid.grid_10.fx>.col{
+  margin:0 10px;
+}

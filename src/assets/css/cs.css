@@ -1,0 +1,386 @@
+@charset "utf-8";
+/*-------------------------------------------------------------------
+	파일정의 : zin
+	작성날짜 : 2021-06-19 장병주
+	참고사항 : 이 파일은 cs 만 정의한다.
+	분류순서 : 기본정책 > 유틸리티 > 사용자정의(컬러, 폰트, 보더, 간격 등)
+	속성순서 : 표시 > 위치 > 넘침/흐름 > 크기/간격 > 박스모양 > 폰트/정렬 > 기타
+-------------------------------------------------------------------*/
+.cs_page .search_sec {
+    padding: 30px 0;
+    background: #EDEDED;
+    text-align: center;
+    margin-bottom: 20px;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+}
+.cs_page .search_sec .list_search_wrap {
+    display: inline-block;
+    margin-top: 0;
+    padding: 10px 20px;
+    background: #FFF;
+}
+    /* cs - notice - index */
+.notice_page {}
+.notice_page .divider_snb {}
+.notice_page .divider_snb h4 {
+    margin-bottom: 40px;
+}
+.notice_page .divider_snb .btn_area {}
+.notice_page .divider_snb .btn_area .btn {
+    position: relative;
+    padding: 0 12px 0 5px;
+    width: 186px;
+    font-size: 14px;
+}
+.notice_page .divider_snb .btn_area .btn:before {
+    content: "";
+    display: inline-block;
+    background: url("/img/zin/ic_write.png") no-repeat center;
+    width: 34px;
+    height: 34px;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+/*.notice_page .snb,*/
+/*.notice_page .notice_head,*/
+/*.notice_page .news_detail_head {*/
+/*    padding-top: 30px;*/
+/*}*/
+.notice_page .divider_snb h4 span {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 37px;
+}
+.notice_page.has_snb .divider_cnt {
+    width: 100%;
+    max-width: 940px;
+}
+.notice_page .notice_head {
+    margin-bottom: 20px;
+}
+.notice_page .notice_head h3 {
+    font-size: 25px;
+    line-height: 37px;
+}
+.notice_list_sec .list_sec_head {
+    padding: 0 0 25px;
+    margin-top: -10px;
+}
+
+.notice_page .tbl_list tr:nth-child(1) {
+    border-top: 1px solid #212121;
+}
+.notice_page tr a{
+    position: relative;
+}
+.notice_page .notice_list_wrap tr:nth-child(1) a:after{
+    content: '';
+    display: inline-block;
+    background: url("/img/zin/ic_file.png") no-repeat center;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-44%);
+    right: -30px;
+}
+.notice_page .notice_list_wrap tr:nth-child(2) a:after {
+    content: '';
+    display: inline-block;
+    background: url("/img/zin/ic_new.png") no-repeat center;
+    width: 16px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -25px;
+}
+
+.notice_page tr:nth-child(1),.notice_page tr:nth-child(2),.notice_page tr:nth-child(3) {
+    background: #F7F7F7;
+}
+.notice_page .tbl_list tbody tr td {
+    padding: 16px 20px;
+}
+
+/* cs - notice - detail */
+.notice_page .news_detail_head h3 {
+    font-size: 25px;
+}
+.notice_page .news_detail_head .ttl_area{
+    margin-bottom: 20px;
+}
+.notice_page .type_default .detail_head {
+    padding-left: 20px;
+}
+.notice_page .detail_foot {padding-bottom: 0;}
+
+.notice_page .attachment_wrap {
+    margin-top: -20px;
+    background: #F7F7F7;
+}
+.notice_page .attachment_wrap th {
+    text-align: left;
+    border-bottom: 1px solid #D0D0D0;
+    padding:  11px 0 13px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+.notice_page tr:nth-child(1) {
+    border-top: 0;
+}
+.notice_page .attachment_wrap tr {
+    border-bottom: 1px solid #D0D0D0;
+}
+.notice_page .attachment_wrap tr:last-child {
+    border-bottom: 0 none;
+}
+
+.notice_page .attachment_wrap td {
+    padding: 13px 20px ;
+    font-size: 15px;
+    line-height: 23px;
+}
+.notice_page .attachment_wrap .ic_file{
+    display: inline-block;
+    position: relative;
+}
+.notice_page .attachment_wrap .ic_file:after {
+    content: '';
+    display: inline-block;
+    background: url("/img/zin/ic_file.png") no-repeat center;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-44%);
+    right: -30px;
+}
+.notice_page .detail_cnt_wrap {
+    padding: 40px 20px 0;
+}
+.notice_page .notice_detail_body .txt_area p{
+    font-size: 15px;
+    line-height: 28px;
+}
+.notice_page .notice_detail_body .txt_area em{
+    color: #B93333;
+}
+.notice_page .notice_detail_body .img_area {
+    text-align: left;
+    margin-top: 40px;
+}
+
+/* use-agreement */
+.use_agreement_page .use_agreement_head {
+    margin-top: 8px;
+    position: relative;
+}
+.use_agreement_page .use_agreement_head .ttl_area {
+    margin-bottom: 40px;
+}
+.use_agreement_page .use_agreement_head h3 {
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 500;
+}
+.use_agreement_page .use_agreement_body h6 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+.use_agreement_page .content_detail_wrap {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.use_agreement_page .content_detail_wrap strong {
+    /*font-size: 14px;*/
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.use_agreement_page .content_detail_wrap p{
+    /*font-size: 14px;*/
+    line-height: 22px;
+}
+.use_agreement_page .content_detail_wrap .ko_list {
+    padding: 15px 0 15px 16px;
+}
+.use_agreement_page .content_detail_wrap span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.use_agreement_page .select_sec {
+    position: absolute;
+    right: 0;
+    top: 55px;
+}
+.use_agreement_page .select_sec .input_box {
+    width: 177px;
+}
+.use_agreement_page .select_sec .input_box .place_holder{
+    color: #212121;
+}
+
+
+/* faq-index */
+.faq_page.has_snb .divider_cnt {
+    width: 100%;
+    max-width: 940px;
+}
+
+.faq_page .notice_head .ttl_area {
+    margin-bottom: 15px;
+}
+
+.faq_page .zin_search_form {
+    padding: 30px 150px;
+    background: #F7F7F7;
+    border-top: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+}
+.faq_page .zin_search_form .search_input_group {
+    position: relative;
+    width: 640px;
+}
+.faq_page .zin_search_form .search_input_group .input_area{
+    width: 100%;
+    background-color: #fff;
+}
+.faq_page .zin_search_form .search_input_group .input_box{
+    padding: 0 48px;
+}
+
+/*.faq_page .search_sec .reset_btn {*/
+/*    position: absolute;*/
+/*    right: 12px;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*}*/
+.faq_page .tabs_wrap {
+    margin-top: 30px;
+}
+.faq_page .tabs {
+    border-bottom: 0;
+}
+.faq_page .tabs .tab_node {
+    text-align: center;
+    width: 156px;
+    height: 56px;
+    border-right: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+}
+.faq_page .tabs .tab_node:nth-child(6),
+.faq_page .tabs .tab_node:nth-child(12){
+    border-right: 0;
+}
+.faq_page .tabs .tab_item {
+    width: 156px !important;
+    font-size: 17px;
+    padding: 15px 0px !important;
+}
+.faq_page .tabs .tab_node.is_active .tab_item {
+    width: 100%;
+    font-weight: 500;
+}
+
+.faq_page .faq_list_wrap > ul {
+    display: table;
+}
+.faq_page .faq_list_wrap .faq_list_item {
+    position: relative;
+    /*display: table;*/
+    border-bottom: 1px solid #D0D0D0;
+    width: 100%;
+}
+.faq_page .faq_list_wrap  .faq_list_item .q_area {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding: 30px 95px 30px 0;
+    cursor: pointer;
+}
+.faq_page .faq_list_wrap .faq_list_item strong {
+    font-size: 15px;
+    color: #A27855;
+    font-weight: 400;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    width: 118px;
+}
+.faq_page .faq_list_wrap .faq_list_item strong:after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    background: #D0D0D0;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.faq_page .faq_list_wrap .faq_list_item p {
+    position: relative;
+    font-size: 16px;
+    /*display: table-cell;*/
+    padding-left: 37px;
+    width: 100%;
+}
+.faq_page .faq_list_wrap .faq_list_item p:before,
+.faq_page .faq_list_item .a_area> div:before {
+    content: "Q";
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.faq_page .faq_list_wrap .faq_list_item .arw_bottom{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.faq_page .faq_list_item .a_area {
+    height: 0;
+    overflow: hidden;
+    padding: 0 90px 0 30px;
+    background: #EDEDED;
+    box-sizing: border-box;
+    transition: ease-out .4s;
+}
+.faq_page .faq_list_item .a_area> div:before {
+    content: 'A';
+    top: 0;
+    transform: translateY(0);
+}
+.list_sec .faq_list_wrap {
+    margin-bottom: 40px;
+}
+
+.faq_page .faq_list_wrap .faq_list_item.on .arw_bottom{
+    transform: rotate(180deg);
+}
+.faq_page .faq_list_item .a_area> div {
+    position: relative;
+    padding: 0 40px;
+}
+.faq_page .faq_list_item.on .a_area {
+    padding: 30px 90px 30px 30px;
+}
+.faq_page .a_area ul {
+    padding: 30px;
+}
+.faq_page .faq_list_wrap .no_result {
+    padding: 130px 0;
+    border-bottom: 1px solid #d0d0d0;
+}

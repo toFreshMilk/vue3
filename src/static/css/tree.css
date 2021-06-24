@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/*-------------------------------------------------------------------
+	파일정의 : Settings
+	작성날짜 : 2019-10-22 장병주
+	참고사항 : 이 파일은 설정값만 정의한다.
+	분류순서 : 기본정책 > 유틸리티 > 사용자정의(컬러, 폰트, 보더, 간격 등)
+	속성순서 : 표시 > 위치 > 넘침/흐름 > 크기/간격 > 박스모양 > 폰트/정렬 > 기타
+-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------
+	Variables
+-------------------------------------------------------------------*/
+/* 여백,간격 */
+/* 컬러 */
+/* 명암 */
+/* 그라데이션 */
+/* 유틸리티 */
+/*-------------------------------------------------------------------
+	파일정의 : 초기화 스타일
+	작성날짜 : 2019-10-22 장병주
+	분류순서 : Base > Fonts
+	속성순서 : 표시 > 위치 > 넘침/흐름 > 크기/간격 > 박스모양 > 폰트/정렬 > 기타
+-------------------------------------------------------------------*/
+.inner {
+  padding: 20px;
+}
+h1 {
+  font-size: 18px;
+  padding: 30px 0;
+  font-weight: 700;
+}
+table {
+  margin-bottom: 50px;
+}
+table th,
+table td {
+  vertical-align: top;
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  line-height: 1.5;
+}
+
+table th {
+  border-bottom: 2px solid #000;
+  font-size: 15px;
+}
+table td span {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+table td:first-child,
+table td:nth-last-child(2),
+table td:nth-last-child(3){white-space: nowrap}
+a {
+  color: #1b3cff;
+  font-size: 14px;
+  word-break: break-all
+}
+.i {
+  color: #f00;
+}
+.update {
+  color: #cd6e63;
+}
+.new {
+  color: #779e42;
+}
+.new:before,
+.update:before {
+    display: inline-block;
+    margin: 0 5px;
+}
+.new:before {content: 'NEW';}
+.update:before {content: 'UPDATE';}
+.before td, .before th {
+  background: #e0e0e0;
+  opacity: .5;
+}
+.before td, .before th {
+  background: #e0e0e0;
+  opacity: .5;
+}
+
+@media screen and (max-width:1000px) {
+    table td:first-child,
+    table td:nth-last-child(2),
+    table td:nth-last-child(3){white-space: normal}
+}

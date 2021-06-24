@@ -1,0 +1,10 @@
+capabilities:
+  browserName: 'chrome'
+  goog:chromeOptions:
+    args:
+      - headless
+      - no-sandbox
+      - disable-infobars
+      - disable-gpu
+      - disable-dev-shm-usage
+baseUrl: 'http://dev-service.justten.io'

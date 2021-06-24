@@ -1,0 +1,19 @@
+<svg id="ic_card" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_2976" data-name="Rectangle 2976" width="24" height="24" fill="none"/>
+  <g id="Rectangle_2978" data-name="Rectangle 2978" transform="translate(5 5)" fill="none" stroke="#212121" stroke-width="1.2">
+    <rect width="6" height="6" stroke="none"/>
+    <rect x="0.6" y="0.6" width="4.8" height="4.8" fill="none"/>
+  </g>
+  <g id="Rectangle_2981" data-name="Rectangle 2981" transform="translate(5 13)" fill="none" stroke="#212121" stroke-width="1.2">
+    <rect width="6" height="6" stroke="none"/>
+    <rect x="0.6" y="0.6" width="4.8" height="4.8" fill="none"/>
+  </g>
+  <g id="Rectangle_2979" data-name="Rectangle 2979" transform="translate(13 5)" fill="none" stroke="#212121" stroke-width="1.2">
+    <rect width="6" height="6" stroke="none"/>
+    <rect x="0.6" y="0.6" width="4.8" height="4.8" fill="none"/>
+  </g>
+  <g id="Rectangle_2980" data-name="Rectangle 2980" transform="translate(13 13)" fill="none" stroke="#212121" stroke-width="1.2">
+    <rect width="6" height="6" stroke="none"/>
+    <rect x="0.6" y="0.6" width="4.8" height="4.8" fill="none"/>
+  </g>
+</svg>

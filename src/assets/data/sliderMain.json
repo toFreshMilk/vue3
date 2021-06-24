@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "image": "/multikart/images/home-banner/1.jpg",
+      "name": "banner-1",
+      "link": {
+        "url": "#"
+      }
+    },
+    {
+      "image": "/multikart/images/home-banner/1.jpg",
+      "name": "banner-1",
+      "link": {
+        "url": "#"
+      }
+    },
+    {
+      "image": "/multikart/images/home-banner/1.jpg",
+      "name": "banner-1",
+      "link": {
+        "url": "#"
+      }
+    }
+  ]
+}

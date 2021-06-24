@@ -1,0 +1,52 @@
+/* noto_sans_kr-300 */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/notosanskr/noto_sans_kr_300.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
+       url('../fonts/notosanskr/noto_sans_kr_300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/notosanskr/noto_sans_kr_300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/notosanskr/noto_sans_kr_300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/notosanskr/noto_sans_kr_300.otf') format('OpenType'), /* Safari, Android, iOS */
+       url('../fonts/notosanskr/noto_sans_kr_300.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto_sans_kr-regular */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/notosanskr/noto_sans_kr_regular.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
+       url('../fonts/notosanskr/noto_sans_kr_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/notosanskr/noto_sans_kr_regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/notosanskr/noto_sans_kr_regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/notosanskr/noto_sans_kr_regular.otf') format('OpenType'), /* Safari, Android, iOS */
+       url('../fonts/notosanskr/noto_sans_kr_regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto_sans_kr-500 */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/notosanskr/noto_sans_kr_500.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'), 
+       url('../fonts/notosanskr/noto_sans_kr_500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/notosanskr/noto_sans_kr_500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/notosanskr/noto_sans_kr_500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/notosanskr/noto_sans_kr_500.otf') format('OpenType'), /* Safari, Android, iOS */
+       url('../fonts/notosanskr/noto_sans_kr_500.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto_sans_kr-700 */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/notosanskr/noto_sans_kr_700.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+       url('../fonts/notosanskr/noto_sans_kr_700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/notosanskr/noto_sans_kr_700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/notosanskr/noto_sans_kr_700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/notosanskr/noto_sans_kr_700.otf') format('OpenType'), /* Safari, Android, iOS */
+       url('../fonts/notosanskr/noto_sans_kr_700.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}

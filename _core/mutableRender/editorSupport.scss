@@ -1,0 +1,27 @@
+#editablePageContents {
+  &.expand {
+    [ice-prop-type='children'] {
+      min-height: 50px;
+    }
+
+    [ice-prop-slot] {
+      min-height: 50px;
+    }
+  }
+}
+
+#editablePageContents.dragging [ice-prop-type='children'] {
+  min-height: 50px;
+}
+#editablePageContents.dragging [ice-prop-type='scene-children'] {
+  min-height: 50px;
+}
+
+#editablePageContents.dragging [ice-prop-slot] {
+  min-height: 50px;
+}
+
+//
+//#editablePageContents.dragging [ice-nid] {
+//  margin: 20px 0;
+//}

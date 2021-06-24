@@ -1,0 +1,3 @@
+capabilities:
+  browserName: 'firefox'
+baseUrl: 'http://dev-service.justten.io/'

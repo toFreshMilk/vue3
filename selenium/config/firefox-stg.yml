@@ -1,0 +1,3 @@
+capabilities:
+  browserName: 'firefox'
+baseUrl: 'http://stg-service.justten.io/'

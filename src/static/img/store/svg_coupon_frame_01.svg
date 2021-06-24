@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="491" height="175" viewBox="0 0 491 175">
+  <defs>
+    <filter id="Union_8" x="0" y="0" width="491" height="175" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_7" x="376" y="0" width="115" height="175" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="coupon" transform="translate(4169 4764)">
+    <g transform="matrix(1, 0, 0, 1, -4169, -4764)" filter="url(#Union_8)">
+      <g id="Union_8-2" data-name="Union 8" transform="translate(15 12)" fill="#fff">
+        <path d="M 460.4998474121094 144.4998931884766 L 380.7559204101563 144.4998931884766 L 376.8211975097656 140.4943695068359 L 376.4928588867188 140.1601257324219 L 376.1379699707031 140.4661254882813 L 371.4602355957031 144.4998931884766 L 0.5403571724891663 144.4998931884766 L 0.5001657009124756 0.5000130534172058 L 371.385986328125 0.5000130534172058 L 376.0185546875 5.570130825042725 L 376.4058532714844 5.994012832641602 L 376.7724914550781 5.552072048187256 L 380.9636840820313 0.5000473260879517 L 460.4998474121094 0.511646032333374 L 460.4998474121094 144.4998931884766 Z" stroke="none"/>
+        <path d="M 459.9998474121094 143.9998931884766 L 459.9998474121094 1.011573076248169 L 381.1985168457031 1.000081539154053 L 377.1573181152344 5.871307373046875 L 376.424072265625 6.755189418792725 L 375.6494445800781 5.907365798950195 L 371.1655883789063 1.000012993812561 L 1.00030529499054 1.000012993812561 L 1.040217638015747 143.9998931884766 L 371.2744140625 143.9998931884766 L 375.8114318847656 140.0874786376953 L 376.5211486816406 139.4754791259766 L 377.1779174804688 140.1440124511719 L 380.9656066894531 143.9998931884766 L 459.9998474121094 143.9998931884766 M 460.9998474121094 144.9998931884766 L 380.546142578125 144.9998931884766 L 376.4645080566406 140.8447723388672 L 371.6460266113281 144.9998931884766 L 0.04049668088555336 144.9998931884766 L 2.609432522149291e-05 1.304716261074645e-05 L 371.6064453125 1.304716261074645e-05 L 376.3876647949219 5.232836723327637 L 380.7288513183594 1.304716261074645e-05 L 460.9998474121094 0.0117189297452569 L 460.9998474121094 144.9998931884766 Z" stroke="none" fill="#ededed"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -4169, -4764)" filter="url(#Union_7)">
+      <path id="Union_7-2" data-name="Union 7" d="M644-24.988,563.729-25l-4.7,5.662L559,115.372,563.546,120H644Z" transform="translate(-168 37)" fill="#b49277"/>
+    </g>
+    <path id="Path_1986" data-name="Path 1986" d="M0,0V132" transform="translate(-3778 -4745)" fill="none" stroke="#a27855" stroke-width="1" stroke-dasharray="4 4"/>
+    <g id="ic_downroad" transform="translate(-3751 -4696)">
+      <path id="패스_536" data-name="패스 536" d="M6.115,13.484v4.4H24.907v-4.4" transform="translate(0.491 6.516)" fill="none" stroke="#fff" stroke-width="1.2"/>
+      <rect id="Rectangle_2127" data-name="Rectangle 2127" width="32" height="32" fill="none"/>
+      <path id="Path_1973" data-name="Path 1973" d="M12,5V19.667" transform="translate(4 0.333)" fill="none" stroke="#fff" stroke-width="1.2"/>
+      <path id="Path_1974" data-name="Path 1974" d="M8,10l5.333,5.333L18.667,10" transform="translate(2.667 4.667)" fill="none" stroke="#fff" stroke-width="1.2"/>
+    </g>
+  </g>
+</svg>

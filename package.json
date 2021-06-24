@@ -1,0 +1,235 @@
+{
+  "name": "service-core",
+  "version": "1.0.0",
+  "description": "ICE ServiceCore",
+  "author": "TSH.H <theskyend0@i-on.net>",
+  "private": true,
+  "scripts": {
+    "2": "better-npm-run",
+    "loc": "cross-env HOST=0.0.0.0 PORT=8000 CONFIG_LEVEL=loc COLLECTION=src/plugins/collections/common.collection.js NODE_OPTIONS=--max_old_space_size=8192 nuxt",
+    "dev": "cross-env PORT=8000 CONFIG_LEVEL=dev COLLECTION=src/plugins/collections/common.collection.js node --max_old_space_size=8192 server/index.js",
+    "stg": "cross-env PORT=8000 CONFIG_LEVEL=stg COLLECTION=src/plugins/collections/common.collection.js node --max_old_space_size=8192 server/index.js",
+    "prd": "cross-env PORT=8000 CONFIG_LEVEL=prd COLLECTION=src/plugins/collections/common.collection.js node --max_old_space_size=8192 server/index.js",
+    "build": "cross-env CONFIG_LEVEL=prd NODE_OPTIONS=--max-old-space-size=4092 COLLECTION=src/plugins/collections/common.collection.js nuxt build",
+    "build:loc": "cross-env CONFIG_LEVEL=loc NODE_OPTIONS=--max-old-space-size=4092 COLLECTION=src/plugins/collections/common.collection.js nuxt build",
+    "build:dev": "cross-env CONFIG_LEVEL=dev NODE_OPTIONS=--max-old-space-size=4092 COLLECTION=src/plugins/collections/common.collection.js nuxt build",
+    "build:stg": "cross-env CONFIG_LEVEL=stg NODE_OPTIONS=--max-old-space-size=4092 COLLECTION=src/plugins/collections/common.collection.js nuxt build",
+    "build:prd": "cross-env CONFIG_LEVEL=prd NODE_OPTIONS=--max-old-space-size=4092 COLLECTION=src/plugins/collections/common.collection.js nuxt build",
+    "start": "cross-env PORT=8000 CONFIG_LEVEL=prd NODE_ENV=production nuxt start",
+    "start:loc": "cross-env HOST=0.0.0.0 PORT=8000 CONFIG_LEVEL=loc NODE_ENV=production nuxt start",
+    "start:dev": "cross-env HOST=0.0.0.0 PORT=8000 CONFIG_LEVEL=dev NODE_ENV=production nuxt start",
+    "start:stg": "cross-env HOST=0.0.0.0 PORT=8000 CONFIG_LEVEL=stg NODE_ENV=production nuxt start",
+    "start:prd": "cross-env HOST=0.0.0.0 PORT=8000 CONFIG_LEVEL=prd NODE_ENV=production nuxt start",
+    "generate": "nuxt-ts generate",
+    "lint": "tslint --project .",
+    "precommit": "npm run lint"
+  },
+  "betterScripts": {
+    "m:loc": {
+      "command": "nuxt",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "8000",
+        "CONFIG_LEVEL": "loc",
+        "NUXT_PAGES": "pagesMobile",
+        "NUXT_LAYOUTS": "layoutsMobile",
+        "NUXT_BUILD": ".mobileNuxt",
+        "DEVICE": "mobile",
+        "COLLECTION": "src/plugins/collections/mobile.collection.js"
+      }
+    },
+    "m:dev": {
+      "command": "nuxt",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "8000",
+        "CONFIG_LEVEL": "dev",
+        "NUXT_PAGES": "pagesMobile",
+        "NUXT_LAYOUTS": "layoutsMobile",
+        "NUXT_BUILD": ".mobileNuxt",
+        "DEVICE": "mobile",
+        "COLLECTION": "src/plugins/collections/mobile.collection.js"
+      }
+    },
+    "m:prd": {
+      "command": "nuxt",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "8000",
+        "CONFIG_LEVEL": "prd",
+        "NUXT_PAGES": "pagesMobile",
+        "NUXT_LAYOUTS": "layoutsMobile",
+        "NUXT_BUILD": ".mobileNuxt",
+        "DEVICE": "mobile",
+        "COLLECTION": "src/plugins/collections/mobile.collection.js"
+      }
+    },
+    "pc:loc": {
+      "command": "nuxt",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "9000",
+        "CONFIG_LEVEL": "loc",
+        "DEVICE": "pc",
+        "COLLECTION": "src/plugins/collections/pc.collection.js"
+      }
+    },
+    "pc:dev": {
+      "command": "nuxt",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "9000",
+        "CONFIG_LEVEL": "dev",
+        "DEVICE": "pc",
+        "COLLECTION": "src/plugins/collections/pc.collection.js"
+      }
+    },
+    "pc:prd": {
+      "command": "nuxt",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "9000",
+        "CONFIG_LEVEL": "prd",
+        "DEVICE": "pc",
+        "COLLECTION": "src/plugins/collections/pc.collection.js"
+      }
+    },
+    "build:m:loc": {
+      "command": "nuxt build",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "8000",
+        "CONFIG_LEVEL": "loc",
+        "NUXT_PAGES": "pagesMobile",
+        "NUXT_LAYOUTS": "layoutsMobile",
+        "DEVICE": "mobile",
+        "NUXT_BUILD": ".mobileNuxt",
+        "COLLECTION": "src/plugins/collections/mobile.collection.js"
+      }
+    },
+    "build:m:dev": {
+      "command": "nuxt build",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "8000",
+        "CONFIG_LEVEL": "dev",
+        "NUXT_PAGES": "pagesMobile",
+        "NUXT_LAYOUTS": "layoutsMobile",
+        "DEVICE": "mobile",
+        "NUXT_BUILD": ".mobileNuxt",
+        "COLLECTION": "src/plugins/collections/mobile.collection.js"
+      }
+    },
+    "build:m:prd": {
+      "command": "nuxt build",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "8000",
+        "CONFIG_LEVEL": "prd",
+        "NUXT_PAGES": "pagesMobile",
+        "NUXT_LAYOUTS": "layoutsMobile",
+        "DEVICE": "mobile",
+        "NUXT_BUILD": ".mobileNuxt",
+        "COLLECTION": "src/plugins/collections/mobile.collection.js"
+      }
+    },
+    "build:pc:loc": {
+      "command": "nuxt build",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "9000",
+        "CONFIG_LEVEL": "loc",
+        "DEVICE": "pc",
+        "COLLECTION": "src/plugins/collections/pc.collection.js"
+      }
+    },
+    "build:pc:dev": {
+      "command": "nuxt build",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "9000",
+        "CONFIG_LEVEL": "dev",
+        "DEVICE": "pc",
+        "COLLECTION": "src/plugins/collections/pc.collection.js"
+      }
+    },
+    "build:pc:prd": {
+      "command": "nuxt build",
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "9000",
+        "CONFIG_LEVEL": "prd",
+        "DEVICE": "pc",
+        "COLLECTION": "src/plugins/collections/pc.collection.js"
+      }
+    }
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.12.17",
+    "@babel/runtime-corejs2": "^7.4.3",
+    "@nuxtjs/axios": "^5.5.4",
+    "@nuxtjs/device": "^2.0.1",
+    "@nuxtjs/moment": "^1.6.1",
+    "@tosspayments/sdk": "^1.1.4",
+    "axios": "^0.18.0",
+    "better-npm-run": "^0.1.1",
+    "body-parser": "^1.19.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "desandro-matches-selector": "^2.0.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "ev-emitter": "^1.1.1",
+    "fs": "0.0.1-security",
+    "imports-loader": "1.2.0",
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1",
+    "js-cookie": "2.2.1",
+    "json-beautify": "1.1.1",
+    "jw-vue-pagination": "1.0.3",
+    "jwt-decode": "2.2.0",
+    "lodash": "4.17.20",
+    "mobile-detect": "1.4.4",
+    "moment": "2.29.1",
+    "node-fetch": "2.6.1",
+    "nuxt": "2.14.12",
+    "nuxt-lazy-load": "^1.2.6",
+    "nuxt-vuex-localstorage": "1.2.7",
+    "path": "0.12.7",
+    "pm2": "4.5.1",
+    "query-string": "5.1.1",
+    "set-cookie-parser": "^2.4.7",
+    "swiper": "5.4.5",
+    "v-viewer": "^1.5.1",
+    "vee-validate": "^3.4.5",
+    "video.js": "^7.11.4",
+    "vue-awesome-swiper": "4.1.1",
+    "vue-class-component": "^7.2.6",
+    "vue-daum-postcode": "0.6.1",
+    "vue-kakao-sdk": "^0.0.4",
+    "vue-lazy-hydration": "^2.0.0-beta.4",
+    "vue-loader": "15.4.2",
+    "vue-localstorage": "0.6.2",
+    "vue-router": "3.5.1",
+    "vue-server-renderer": "latest",
+    "vue2-editor": "^2.10.2",
+    "vuebar": "0.0.20",
+    "vuex-class": "^0.3.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-module": "3.0.2",
+    "@nuxtjs/vuetify": "1.11.3",
+    "@types/lodash": "4.14.168",
+    "babel-eslint": "10.1.0",
+    "babel-plugin-module-resolver": "3.2.0",
+    "deepmerge": "^4.2.2",
+    "eslint": "7.2.0",
+    "eslint-plugin-nuxt": "2.0.0",
+    "fibers": "5.0.0",
+    "node-sass": "4.14.1",
+    "sass-loader": "8.0.2"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.12.17"
+  }
+}
